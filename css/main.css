@@ -1,4 +1,4 @@
-body {
+body{
   font-family: 'Roboto', Helvetica, sans-serif;
   background-color: grey;
   margin: 0;
@@ -15,11 +15,11 @@ h1,h2,h3,h4,h5,h6 {
   padding: 0 1rem;
 }
 
-img {
+img{
   width: 100%;
 }
 
-.main-nav ul {
+.navigation ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -27,34 +27,33 @@ img {
   padding: 0;
 }
 
-.main-nav ul li {
+.navigation ul li {
   flex: 1;
   text-align: center;
 }
 
-.main-nav ul li a {
+.navigation ul li a {
   display: block;
   color: inherit;
   text-decoration: none;
   font-size: 1.25rem;
 }
 
-form input,
-form textarea {
+form input, form textarea {
   display: block;
   width: 100%;
   margin-bottom: 1rem;
   padding: .5rem 1rem;
 }
 
-form textarea {
+form textarea{
   min-height: 150px;
   max-height: 150px;
   height: 150px;
   resize: none;
 }
 
-form button {
+form button{
   background: none;
   border: 2px solid black;
   padding: 1rem;
